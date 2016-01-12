@@ -1,0 +1,12 @@
+﻿  Action.cpp
+  Attack.cpp
+  Crouch.cpp
+  Jump.cpp
+  LowAttack.cpp
+  Move.cpp
+  UpAttack.cpp
+  FabriquePlayer.cpp
+  GameManager.cpp
+  Entity.cpp
+  Player.cpp
+  2DFight.vcxproj -> C:\Users\r.mathieu\Desktop\Archi\build\2DFight\..\..\bin\2DFight-d.exe

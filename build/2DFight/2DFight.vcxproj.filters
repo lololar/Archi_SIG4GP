@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Action">
+      <UniqueIdentifier>{E338BFA6-CFDA-E97C-B895-FDD0A4D670CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7FA9857C-6BE0-860D-14CD-6C1000E3020F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{724E55CA-5EF0-7FA0-47AB-93F433EC06F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{F68B420E-62A0-6ABF-2B22-0E1F97F566F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\code\Game\Singleton.inl">
+      <Filter>Game</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\Action\Action.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Attack.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\BasicAttack.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Block.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Combo.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Crouch.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Jump.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\LowAttack.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\Move.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Action\UpAttack.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\Adventure.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\FabriqueEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\FabriquePlayer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\GameMode.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\QuickFight.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\Singleton.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\Tournament.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Game\Zone.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Player\Entity.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Player\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Player\PlayerState.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Player\StatePlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Utils\Vector2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Utils\InputManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Utils\TimeManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\Action\Action.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Attack.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\BasicAttack.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Block.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Combo.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Crouch.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Jump.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\LowAttack.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\Move.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Action\UpAttack.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\Adventure.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\FabriqueEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\FabriquePlayer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\GameMode.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\QuickFight.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\Tournament.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Game\Zone.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Player\Entity.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Player\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Player\PlayerState.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Utils\Vector2.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
